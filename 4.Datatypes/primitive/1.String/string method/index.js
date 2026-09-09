@@ -45,4 +45,22 @@ console.log(o)
 var p = a.repeat(3)
 console.log(p)
 
+var q= a.replace("Hello World ","Bye World")
+console.log(q)
+
+var r=a.concat("With regards")
+console.log(r)
+
+var s=a.slice(7)
+console.log(s)
+
+var t=a.split(" ")
+console.log(t)
+
+var u=a.split("")
+console.log(u)
+
+var v = a.split()
+console.log(v)
+
 
