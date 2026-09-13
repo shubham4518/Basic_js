@@ -20,12 +20,35 @@
         }
         shubh()
 
-        //number with expression 
+        //function with expression 
         
-        function hi(){
-            console.log("I am anonymous function")
+        const ball= function hi(){
+            console.log("I am function with expression ")
         }
-        hi()
+        ball()
+
+        // immediately invoked function expression (IIFE)
+        // (function(){
+        //     console.log("I am IIFE function")
+        // })
+        // ()
+
+        // arrow function
+        const arrow=()=>{
+            console.log("I am arrow function")
+        }
+        arrow()
+
+        //currying function
+        function sum(a){
+            return function(b){
+                return function(c){
+                    return a+b+c
+                }
+            }
+        }
+        console.log(sum(2)(3)(4))
+
     </script>
 </body>
 </html>
